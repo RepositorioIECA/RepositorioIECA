@@ -11,7 +11,7 @@
 var opensdg = {
 
   // A base URL for asynchronous calls to SDG data.
-  remoteDataBaseUrl: '/ods-municipios-andalucia/es',
+  remoteDataBaseUrl: '/repositorioieca/es',
 
   chartConfigAlterations: [],
   // A hook which can be used to modify the configuration for Chart.js.
@@ -120,13 +120,13 @@ var translations = {
         <link rel="canonical" href="/">
 
         <!--[if IE 9]>
-        <script src="/ods-municipios-andalucia/assets/js/lib/classList.js"></script>
+        <script src="/repositorioieca/assets/js/lib/classList.js"></script>
         <![endif]-->
 
         <!-- Favicons ================================================== -->
         <!-- 128x128 -->
-        <link rel="shortcut icon" type="image/ico" href="/ods-municipios-andalucia/assets/img/favicons/favicon.ico">
-        <link rel="icon" type="image/png" href="/ods-municipios-andalucia/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
+        <link rel="shortcut icon" type="image/ico" href="/repositorioieca/assets/img/favicons/favicon.ico">
+        <link rel="icon" type="image/png" href="/repositorioieca/assets/img/favicons/favicon.png"><!-- 192x192, as recommended for Android
         http://updates.html5rocks.com/2014/11/Support-for-theme-color-in-Chrome-39-for-Android
         -->
 
@@ -134,7 +134,7 @@ var translations = {
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/ods-municipios-andalucia/assets/css/style.css?v=20211118093535">
+        <link rel="stylesheet" href="/repositorioieca/assets/css/style.css?v=20211118093535">
         <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet" crossorigin="">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
@@ -171,8 +171,8 @@ layout-indicator
   <div class="container">
 
     <div class="logo-and-mobile-widgets">
-      <a class="navbar-brand" href="/ods-municipios-andalucia/" id="home">
-    <img src="/ods-municipios-andalucia/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
+      <a class="navbar-brand" href="/repositorioieca/" id="home">
+    <img src="/repositorioieca/assets/img/SDG_logo.png" alt="Objetivos de Desarrollo Sostenible - 17 Objetivos para transformar nuestro mundo" />
 </a>
       <div class="mobile-widgets">
     <ul id='accessibility-nav' class='contrast-switcher'>
@@ -209,7 +209,7 @@ data-event-label="high"
 
     <div class="search-and-desktop-widgets">
       <div id="search" class="menu-target">
-  <form action="/ods-municipios-andalucia/search/">
+  <form action="/repositorioieca/search/">
     <label class="sr-only" for="indicator_search">Buscar</label>
     <input type="text" name="q" id="indicator_search" title="Buscar" /><!--
     --><button aria-label="Buscar" id="search-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -256,11 +256,11 @@ data-event-label="high"
         aria-haspopup="true">
         <button data-target="menu-mobile" aria-expanded="false">Menú</button>
         <ul class="nav navbar-nav menu-target contrast-switcher" id="menu-mobile"><li class="nav-link ">
-    <a href="/ods-municipios-andalucia/goals">Objetivos</a>
+    <a href="/repositorioieca/goals">Objetivos</a>
 </li><li class="nav-link ">
-    <a href="/ods-municipios-andalucia/reporting-status">Estado de informes</a>
+    <a href="/repositorioieca/reporting-status">Estado de informes</a>
 </li><li class="nav-link ">
-    <a href="/ods-municipios-andalucia/about">Acerca de</a>
+    <a href="/repositorioieca/about">Acerca de</a>
 </li>
 
 
@@ -300,7 +300,7 @@ data-event-label="high"
         aria-haspopup="true">
         <button data-target="search-mobile" aria-expanded="false">Buscar</button>
         <div id="search-mobile" class="menu-target">
-  <form action="/ods-municipios-andalucia/search/">
+  <form action="/repositorioieca/search/">
     <label class="sr-only" for="indicator_search-mobile">Buscar</label>
     <input type="text" name="q" id="indicator_search-mobile" title="Buscar" /><!--
     --><button aria-label="Buscar" id="search-mobile-btn" type="submit"><i class="fa fa-search" aria-hidden="false"></i></button>
@@ -310,11 +310,11 @@ data-event-label="high"
     </li>
 </ul>
       <ul class="nav navbar-nav menu-target " id="menu"><li class="nav-link ">
-    <a href="/ods-municipios-andalucia/goals">Objetivos</a>
+    <a href="/repositorioieca/goals">Objetivos</a>
 </li><li class="nav-link ">
-    <a href="/ods-municipios-andalucia/reporting-status">Estado de informes</a>
+    <a href="/repositorioieca/reporting-status">Estado de informes</a>
 </li><li class="nav-link ">
-    <a href="/ods-municipios-andalucia/about">Acerca de</a>
+    <a href="/repositorioieca/about">Acerca de</a>
 </li>
 
 </ul>
@@ -404,10 +404,10 @@ data-event-label="high"
   
 <ol class="breadcrumb">
   
-  <li><a href="/ods-municipios-andalucia/">Inicio</a></li>
-  <li><a href="/ods-municipios-andalucia/goals">Objetivos</a></li>
+  <li><a href="/repositorioieca/">Inicio</a></li>
+  <li><a href="/repositorioieca/goals">Objetivos</a></li>
   
-  <li><a href="/ods-municipios-andalucia/10" title="Reducir la desigualdad en los países y entre ellos">Objetivo 10</a></li>
+  <li><a href="/repositorioieca/10" title="Reducir la desigualdad en los países y entre ellos">Objetivo 10</a></li>
   
 </ol>
 
@@ -419,7 +419,7 @@ data-event-label="high"
     <div class="row">
       
       <div class="col-xs-4 col-md-3 col-lg-2 goal-icon goal-tiles">
-        <a href="/ods-municipios-andalucia/10" title="Ver la lista de indicadores de este objetivo">
+        <a href="/repositorioieca/10" title="Ver la lista de indicadores de este objetivo">
           <img src="https://open-sdg.github.io/sdg-translations/assets/img/goals/es/10.png" alt="Reducción de las Desigualdades - Objetivo 10" id="goal-10" class="goal-icon-image goal-icon-image-"/>
         </a>
       </div>
@@ -482,7 +482,7 @@ data-event-label="high"
     <p>Elija categorías de las listas desplegables a continuación para ver diferentes desgloses de los datos. Algunos no estarán disponibles hasta que se elija un nivel superior.</p>
   </span>
   <div id="fields">
-    <p class="async-loading" data-img="/ods-municipios-andalucia/assets/img/loading-small.gif"></p>
+    <p class="async-loading" data-img="/repositorioieca/assets/img/loading-small.gif"></p>
   </div>
 </div>
 
@@ -495,9 +495,9 @@ data-event-label="high"
 
   <div id="datatables">
 
-    <a href="/ods-municipios-andalucia/es/headline/10-2-1.csv" class="btn btn-primary btn-download" download="indicator_10-2-1.csv" tabindex="0" role="button">Descargar CSV global</a>
+    <a href="/repositorioieca/es/headline/10-2-1.csv" class="btn btn-primary btn-download" download="indicator_10-2-1.csv" tabindex="0" role="button">Descargar CSV global</a>
 
-    <a href="/ods-municipios-andalucia/es/data/10-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_10-2-1.csv' tabindex='0' role='button'>Descargar CSV fuente</a>
+    <a href="/repositorioieca/es/data/10-2-1.csv" class="btn btn-primary btn-download" style='float:left;margin-right:1em' download='indicator_10-2-1.csv' tabindex='0' role='button'>Descargar CSV fuente</a>
 
     <h3>Headline data</h3>
     <table class="table-responsive table table-hover dataTable no-footer" role="grid">
@@ -555,7 +555,7 @@ data-event-label="high"
 
 <section>
 
-  <p class="async-loading" data-img="/ods-municipios-andalucia/assets/img/loading-small.gif"></p>
+  <p class="async-loading" data-img="/repositorioieca/assets/img/loading-small.gif"></p>
 
   <div class="async-loaded spacer medium" style="display:none;">
 
@@ -588,7 +588,7 @@ data-event-label="Change to Table tab"
         
 <h4 id="map-heading" class="chart-title">Porcentaje de población extranjera residente en un municipio</h4>
 <div id="map" aria-describedby="table-alternative">
-  <img class="map-loading-image" src="/ods-municipios-andalucia/assets/img/loading.gif" alt="Cargando mapa" />
+  <img class="map-loading-image" src="/repositorioieca/assets/img/loading.gif" alt="Cargando mapa" />
 </div>
 
 
@@ -1088,7 +1088,7 @@ data-event-label="Change to my-custom-translations.national_metadata tab"
         <th scope="row">Descarga de datos </th>
         <td>
           
-            <p><a href="https://ods-municipios-andalucia.github.io/ods-municipios-andalucia/assets/download/xls/Indicador_10-2-1_completo.xls" target="_blank">Desglose por grandes grupos de nacionalidades y por continentes (XLS)</a></p>
+            <p><a href="https://repositorioieca.github.io/repositorioieca/assets/download/xls/Indicador_10-2-1_completo.xls" target="_blank">Desglose por grandes grupos de nacionalidades y por continentes (XLS)</a></p>
 
           
         </td>
@@ -1108,7 +1108,7 @@ data-event-label="Change to my-custom-translations.national_metadata tab"
             
 
             
-              <a href="https://github.com/ods-municipios-andalucia/ods-municipios-andalucia/commit/f228d0a579d40851372370bbd08d6bc2adda8cf4" target="_blank">
+              <a href="https://github.com/repositorioieca/repositorioieca/commit/f228d0a579d40851372370bbd08d6bc2adda8cf4" target="_blank">
                 2021-07-21: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
@@ -1135,7 +1135,7 @@ data-event-label="Change to my-custom-translations.national_metadata tab"
             
 
             
-              <a href="https://github.com/ods-municipios-andalucia/ods-municipios-andalucia/commit/089765d13693955eb2a61457a0a54efc6dfedf15" target="_blank">
+              <a href="https://github.com/repositorioieca/repositorioieca/commit/089765d13693955eb2a61457a0a54efc6dfedf15" target="_blank">
                 2021-07-26: see changes on GitHub <span class="visuallyhidden">Se abre en una nueva ventana</span>
               </a>
             
@@ -1246,11 +1246,11 @@ data-event-label="Change to my-custom-translations.national_metadata tab"
   
 
 
-  <a class="btn btn-primary" href="http://prose.io/#ods-municipios-andalucia/ods-municipios-andalucia/edit/develop/data/indicator_10-2-1.csv">Editar datos</a>
+  <a class="btn btn-primary" href="http://prose.io/#repositorioieca/repositorioieca/edit/develop/data/indicator_10-2-1.csv">Editar datos</a>
   
 
   
-  <a class="btn btn-primary" href="http://prose.io/#ods-municipios-andalucia/ods-municipios-andalucia/edit/develop/meta/10-2-1.md">Editar metadatos</a>
+  <a class="btn btn-primary" href="http://prose.io/#repositorioieca/repositorioieca/edit/develop/meta/10-2-1.md">Editar metadatos</a>
   
 
   
@@ -1281,7 +1281,7 @@ data-event-label="Change to my-custom-translations.national_metadata tab"
                   
                   </li>
                 <li>
-                  <a href="/ods-municipios-andalucia/about/cookies-and-privacy/">Cookies</a>
+                  <a href="/repositorioieca/about/cookies-and-privacy/">Cookies</a>
                   
                   </li>
                 
@@ -1323,12 +1323,12 @@ data-event-label="Change to my-custom-translations.national_metadata tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = 'Buscar';</script>
 
-<script src='/ods-municipios-andalucia/assets/js/sdg.js?v=20211118093535'></script>
+<script src='/repositorioieca/assets/js/sdg.js?v=20211118093535'></script>
 
 
     
     
-    <script src="/ods-municipios-andalucia/assets/js/custom.js?v=20211118093535"></script><script>
+    <script src="/repositorioieca/assets/js/custom.js?v=20211118093535"></script><script>
 $(function() {
     if($('#indicatorData').length) {
       var domData = $('#indicatorData').data();
