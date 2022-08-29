@@ -4,7 +4,7 @@ permalink: /about/
 layout: page
 ---
 <div style="text-align: justify">
-En el año 2015 la ONU aprobó la Agenda 2030 sobre el desarrollo sostenible, en la que se fijaron 17 objetivos, que incluyen desde la eliminación de la pobreza hasta el combate al cambio climático, la educación, la igualdad de la mujer, la defensa del medio ambiente o el diseño de nuestras ciudades. Cada uno de estos objetivos contiene una serie de metas específicas, que particularizan las acciones a desarrollar.
+En el año 2015 la ONU aprobó la Agenda 2030 sobre el desarrollo sostenible, en la que se fijaron 17 objetivos, que incluyen desde la eliminación de la pobreza hasta el combate al cambio climático, la educación, la igualdad de la mujer, la defensa del medio ambiente o el diseño de nuestras ciudades. Cada uno de estos objetivos contiene una serie de metas específicas, que particularizan las acciones a desarrollar..
 <br>
 <br>
 A partir de esta aprobación, distintos organismos se han ido sumando a la misma a todos los niveles institucionales, desde organismos multinacionales a locales.
